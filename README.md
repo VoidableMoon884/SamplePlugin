@@ -117,4 +117,4 @@ The `SamplePlugin` contains an "About" tab where you may provide author informat
 ### Manifest
 The plugin [manifest](https://github.com/RaspAP/SamplePlugin/blob/master/manifest.json) is used to specify basic metadata about your plugin such as its name, version, description, author and so on. If your plugin has external dependencies, configuration files, needs special permissions or requires a non-priviledged user, these may also be defined in their respective fields. Refer to the [SocksProxy plugin manifest](https://github.com/billz/SocksProxy/blob/master/manifest.json) for a working example.
 
-If you've authored a plugin you feel would be useful to the RaspAP community, you're encouraged to share it in the [discussions](https://github.com/RaspAP/SamplePlugin/discussions). 
+If you've authored a plugin you feel would be useful to the RaspAP community, you're encouraged to open a pull request in the official [plugins repository](https://github.com/RaspAP/plugins). Approved third-party plugins will be made available to install via RaspAP's interface.
