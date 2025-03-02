@@ -5,6 +5,7 @@
   "author": "A. Plugin Author",
   "author_uri": "https://github.com/",
   "plugin_uri": "https://github.com/RaspAP/SamplePlugin",
+  "plugin_docs": "https://docs.raspap.com/custom-plugins/",
   "license": "GPL-3.0",
   "namespace": "RaspAP\\Plugins\\SamplePlugin",
   "configuration": [
@@ -18,6 +19,10 @@
     "sample-server": "1.0"
   },
   "icon": "fas fa-plug",
+  "install_path": "plugins",
+  "javascript": {
+        "source": "templates/app/js/Sample.js"
+  },
   "manifest_version": "1.0",
   "sudoers": [
     "www-data ALL=(ALL) NOPASSWD:/bin/systemctl * sample.service",
