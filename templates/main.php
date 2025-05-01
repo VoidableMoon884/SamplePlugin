@@ -29,7 +29,7 @@
         <div class="card-body">
         <?php $status->showMessages(); ?>
           <form role="form" action="<?php echo $__template_data['action']; ?>" method="POST" class="needs-validation" novalidate>
-            <?php echo CSRFTokenFieldTag() ?>
+            <?php echo \RaspAP\Tokens\CSRF::hiddenField(); ?>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs">
                 <li class="nav-item"><a class="nav-link active" id="samplesettingstab" href="#samplesettings" data-bs-toggle="tab"><?php echo _("Settings"); ?></a></li>
