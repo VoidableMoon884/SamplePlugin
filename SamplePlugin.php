@@ -64,8 +64,8 @@ class SamplePlugin implements PluginInterface
     public function initialize(Sidebar $sidebar): void
     {
 
-        $label = _('Sample Plugin');
-        $icon = 'fas fa-plug';
+        $label = _('Repeater Plugin');
+        $icon = 'fa-thin fa-repeat';
         $action = 'plugin__'.$this->getName();
         $priority = 65;
 
@@ -126,10 +126,10 @@ class SamplePlugin implements PluginInterface
 
             // Populate template data
             $__template_data = [
-                'title' => _('Sample Plugin'),
-                'description' => _('A sample user plugin to extend RaspAP'),
-                'author' => _('A. Plugin Author'),
-                'uri' => 'https://github.com/RaspAP/SamplePlugin',
+                'title' => _('Repeater Plugin'),
+                'description' => _('A RaspAP plugin to make a WiFi repeater'),
+                'author' => _('VoidableMoon884'),
+                'uri' => 'https://github.com/VoidableMoon884/SamplePlugin',
                 'icon' => 'fas fa-plug', // icon should be the same used for Sidebar
                 'serviceStatus' => $this->getServiceStatus(), // plugin may optionally return a service status
                 'serviceName' => 'sample.service', // an optional service name
