@@ -65,7 +65,7 @@ class SamplePlugin implements PluginInterface
     {
 
         $label = _('Repeater Plugin');
-        $icon = 'fa-thin fa-repeat';
+        $icon = 'fa-repeat';
         $action = 'plugin__'.$this->getName();
         $priority = 65;
 
